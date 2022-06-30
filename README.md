@@ -1,4 +1,4 @@
-# pipenv-docker-development
+# pipenv-docker-development and google-scholar-scraper
 
 docker template for fast development using pipenv.
 
@@ -9,6 +9,17 @@ This template solves this problem by installing python packages after `docker-co
 pipenv is coupled tightlly with virtualenv so that you need to activate virutalenv before execute python script.
 
 This template solves this problem by hooking login using `ENTRYPOINT` of Dockerfile and `.bashrc` so that you are automatically logged in to pipenv environment same as `pipenv shell`.
+
+
+On Windows OS, use the pipenv_docker batch file to start the docker and then use the following method
+
+google-scholar-scraper
+
+By running the scraper_start shell　
+100 articles related to the keywords you entered
+related to the keyword
+
+
 
 ## for fast development
 
